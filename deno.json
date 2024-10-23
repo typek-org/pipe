@@ -1,0 +1,19 @@
+{
+  "name": "@typek/pipe",
+  "version": "0.1.0",
+  "license": "MIT",
+
+  "exports": {
+    ".": "./lib/mod.ts"
+  },
+
+  "tasks": {
+    "generate": "deno run --allow-env --allow-run --allow-read --allow-write generate.ts"
+  },
+
+  "lint": {
+    "rules": {
+      "exclude": ["no-explicit-any"]
+    }
+  }
+}
